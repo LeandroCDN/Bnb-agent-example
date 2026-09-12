@@ -4,7 +4,7 @@ Proyecto de aprendizaje: un agente on-chain en BNB Chain construido con
 [`@bnbagent/sdk`](https://www.npmjs.com/package/@bnbagent/sdk) directo (sin
 generadores de código a partir de lenguaje natural). El objetivo es entender
 línea por línea el stack de "agentes on-chain" — identidad verificable y
-pagos autónomos — como base para una charla técnica.
+pagos autónomos.
 
 ## Qué hay acá
 
@@ -64,9 +64,3 @@ pnpm exec tsx x402-demo.ts   # corre la demo del flujo de pago x402
 Agente registrado en BSC mainnet: `agent_id 326816`
 ([tx](https://bscscan.com/tx/0xa2831ab788e4d5ffaaf6dc2ee814436be062c3b18f9a1e7371248f1116c27556)).
 
-## Próximos pasos
-
-- Integrar el flujo x402 contra un vendedor real (ej. [CoinGecko](https://www.coingecko.com/),
-  que ya expone datos vía x402) en vez del servidor mock.
-- Dashboard de actividad on-chain del agente vía el subgraph público de
-  Agent0 en [The Graph](https://thegraph.com/).
